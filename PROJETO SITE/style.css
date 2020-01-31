@@ -15,7 +15,7 @@ header{
 
 header .menu{
     float: left;
-    line-height: 50px;
+    line-height: 70px;
 }
 
 *{
@@ -26,7 +26,7 @@ header .logo, footer .logo{
     width: 200px;
     height: 50px;
     float: left;
-    background-image: url("././IMGs/dab-dog.png");
+    background-image: url("././IMGs/ying-yang.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -50,7 +50,8 @@ footer{
     width: 100%;
     left: 0;
     background-color:rgba(0,0,0,0.5);
-    background-image: url(https://image.freepik.com/free-photo/differents-dogs-looking-camera_58409-12874.jpg);
+    /* background-image: url(https://image.freepik.com/free-photo/differents-dogs-looking-camera_58409-12874.jpg); */
+    padding-top: 50px;
 }
 
 footer .logo{
@@ -70,9 +71,29 @@ footer .logo{
 }
 
 .owl-carousel .item{
-    background-color: #fff;
-    height: 300px;
+    display: block;
+    width: 100%;
+    height: auto;
 }
+
+/* .responsive {
+    animation: fadeInRight;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+} */
+
+.w3-card-4 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+    height:auto;
+}
+
+.w3-card-4:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
 
 @media screen and (min-width: 1024px){
     header, footer{
@@ -182,27 +203,11 @@ footer .logo{
         margin-left: 20px;
     }
 
-    .responsive {
-        max-width: 100%;
-        height: auto;
-    }
-
-    .card {
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        width: 40%;
-        border-radius: 5px;
-    }
-    
-    .card:hover {
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    }
-    
     img {
         border-radius: 5px 5px 0 0;
     }
-    
+
     .container {
-        padding: 2px 16px;
+        padding: 2px 500px;
     }
 }
