@@ -84,13 +84,20 @@ footer .logo{
     width: 100%;
     height: auto;
 }
+/* animação do banner: deixar apenas para telas grandes? ou geral mesmo? */
+.responsive:hover {
+    animation: heartBeat;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
 
-/* .responsive {
+.responsive {
     animation: fadeInRight;
     animation-duration: 3s;
     animation-delay: 1s;
     animation-iteration-count: infinite;
-} */
+}
 
 .w3-card-4 {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
