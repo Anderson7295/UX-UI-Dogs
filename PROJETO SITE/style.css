@@ -32,6 +32,15 @@ header .logo, footer .logo{
     background-position: center center;
 }
 
+footer .imagem-efeito{
+    width: 200px;
+    height: 400px;
+    float: right;
+    background-image: url("././IMGs/newsletter-dog-cat.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 header .menu a{
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
