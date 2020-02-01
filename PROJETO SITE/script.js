@@ -6,7 +6,6 @@ $(document).ready(function(){
       loop:true,
       margin:15,
       center:true,
-      autoWidth:true,
       autoplay:true,
       autoplayTimeout:3000,
       autoplayHoverPause:true,
@@ -15,19 +14,15 @@ $(document).ready(function(){
       responsive:{
         0:{
           items:1,
-          singleItem:true,
+          singleItem:true
         },
         600:{
           items:2,
         },
         1000:{
-          items:5,
+          items:3,
           nav:false
         },
-        1400:{
-          items:1,
-          nav:false
-        }
       }
   })
 });
