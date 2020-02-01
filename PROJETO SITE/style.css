@@ -29,12 +29,12 @@ header .logo, footer .logo{
     background-image: url("././IMGs/ying-yang.png");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: left center;    
 }
 
 footer .imagem-efeito{
     width: 200px;
-    height: 400px;
+    height: 200px;
     float: right;
     background-image: url("././IMGs/newsletter-dog-cat.png");
     background-size: contain;
@@ -84,7 +84,7 @@ footer .logo{
     width: 100%;
     height: auto;
 }
-/* animação do banner: deixar apenas para telas grandes? ou geral mesmo? */
+
 .responsive:hover {
     animation: heartBeat;
     animation-duration: 4s;
