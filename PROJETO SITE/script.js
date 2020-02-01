@@ -20,14 +20,14 @@ $(document).ready(function(){
           items:1,
           singleItem:true
         },
+        800:{
+          items:3,
+          nav:false
+        },
         1000:{
           items:5,
           nav:false
-        },
-        1400:{
-          items:7,
-          nav:false
-        }
+        }        
       }
   })
 });
