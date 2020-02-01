@@ -4,7 +4,7 @@ $(document).ready(function(){
     });
     $('.owl-carousel').owlCarousel({
       loop:true,
-      margin:15,
+      margin:10,
       center:true,
       autoplay:true,
       autoplayTimeout:3000,
@@ -17,12 +17,17 @@ $(document).ready(function(){
           singleItem:true
         },
         600:{
-          items:2,
+          items:1,
+          singleItem:true
         },
         1000:{
-          items:3,
+          items:5,
           nav:false
         },
+        1400:{
+          items:7,
+          nav:false
+        }
       }
   })
 });
